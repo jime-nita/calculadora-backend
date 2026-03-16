@@ -22,3 +22,5 @@ app.use('/api/gastos', require('./routes/gastosRoutes'))
 app.use(errorHandler)
 
 app.listen(port, ()=> console.log(`Servidor iniciado en el puerto ${port}`))
+
+// Cambio para actualizar Render <3
